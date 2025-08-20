@@ -27,7 +27,7 @@ def load_data():
     try:
         # Please adjust this path
         #df = pd.read_excel('C:/Users/Emille/Documents/UNIFESP/MATÉRIAS/Tópicos em Ciência de Dados para Neurociência/Projeto5/Banco_SD.xlsx')
-        df = pd.read_excel('C:/Users/Emille/Documents/UNIFESP/MATÉRIAS/Tópicos em Ciência de Dados para Neurociência/Projeto5/Banco_SD.xlsx')
+        df = pd.read_excel('Banco_SD.xlsx')
         return df
     except FileNotFoundError:
         st.error("Erro: O arquivo 'Banco_SD.xlsx' não foi encontrado.")
